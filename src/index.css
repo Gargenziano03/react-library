@@ -25,8 +25,8 @@ nav {
     color: var(--react-library-light);
     padding: 0.5rem;
 
-    &:active {
-      text-decoration: underline;
+    &.active {
+      text-decoration: var(--react-library-accent);
       color: var(--react-library-accent);
     }
   }
